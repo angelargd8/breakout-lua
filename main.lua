@@ -3,7 +3,7 @@
 -- the callbacks are: load, update, draw
 
 -- load the loop module
-local game = require("loop")
+local game = require("src.game")
 
 function love.load()
     game.load()
